@@ -1,11 +1,12 @@
 # MediSense AI - Pharmacist Assistant 💊
 
-MediSense AI is an AI-powered pharmacist assistant that processes handwritten prescriptions, extracts medicine names using OCR, matches them with pharmacy inventory using fuzzy logic, and generates final orders with quantity and price validation. It also enables patients to interact with a chatbot designed to solve user queries regarding medicines.
+MediSense AI is your smart pharmacy companion, making it easy to process handwritten prescriptions. It extracts medicine names using OCR, matches them with pharmacy inventory using fuzzy logic, and generates accurate final orders with quantity and price validation. Plus, patients can interact with an AI-powered chatbot to get quick answers about their medications.
+
 ---
 
 ## 🖼️ Project Screenshots
-- **Main Application Interface:** ![Main Interface](INSERT_IMAGE_URL_HERE)
-- **Prescription Upload:** ![Upload Prescription](INSERT_IMAGE_URL_HERE)
+- **Main Application Interface:** ![Order Generator](INSERT_IMAGE_URL_HERE)
+- **Prescription Upload:** ![Chatbot](INSERT_IMAGE_URL_HERE)
 
 ---
 ## 🚀 Features
