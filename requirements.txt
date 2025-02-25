@@ -1,0 +1,10 @@
+Python==3.11
+pytesseract==0.3.13
+Pillow==11.1.0
+opencv-python==4.11.0.86
+numpy==2.2.3
+pandas==2.2.3
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.26.1
+streamlit==1.42.2
+google-generativeai==0.8.4
