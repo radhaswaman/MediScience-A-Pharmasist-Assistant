@@ -5,8 +5,8 @@ MediSense AI is your smart pharmacy companion, making it easy to process handwri
 ---
 
 ## 🖼️ Project Screenshots
-- **Main Application Interface:** ![Order Generator](INSERT_IMAGE_URL_HERE)
-- **Prescription Upload:** ![Chatbot](INSERT_IMAGE_URL_HERE)
+- **Main Application Interface:** ![Order Generator](model_image_2.jpg)
+- **Prescription Upload:** ![Chatbot](model_image_3.jpg)
 
 ---
 ## 🚀 Features
