@@ -1,7 +1,13 @@
 # MediSense AI - Pharmacist Assistant 💊
 
-MediSense AI is an AI-powered pharmacist assistant that processes handwritten prescriptions, extracts medicine names using OCR, matches them with pharmacy inventory using fuzzy logic, and generates final orders with quantity and price validation.It also enables patients to interact with a chatbot which is designed solve user queries regarding the medicines.
+MediSense AI is an AI-powered pharmacist assistant that processes handwritten prescriptions, extracts medicine names using OCR, matches them with pharmacy inventory using fuzzy logic, and generates final orders with quantity and price validation. It also enables patients to interact with a chatbot designed to solve user queries regarding medicines.
+---
 
+## 🖼️ Project Screenshots
+- **Main Application Interface:** ![Main Interface](INSERT_IMAGE_URL_HERE)
+- **Prescription Upload:** ![Upload Prescription](INSERT_IMAGE_URL_HERE)
+
+---
 ## 🚀 Features
 - Upload handwritten prescription images (JPG, PNG, BMP)
 - Extract prescription text using PyTesseract
@@ -16,7 +22,7 @@ MediSense AI is an AI-powered pharmacist assistant that processes handwritten pr
 2. **Install Tesseract**: [Download Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
    - Set the path in your code:
    ```python
-   pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+   pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\\Tesseract-OCR\\tesseract.exe'
    ```
 
 ---
@@ -32,7 +38,7 @@ cd MediSense-AI
 ```bash
 # For Windows
 python -m venv venv
-venv\Scripts\activate
+venv\\Scripts\\activate
 
 # For MacOS/Linux
 python3 -m venv venv
@@ -61,14 +67,14 @@ os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
 1. **Activate Virtual Environment**
 ```bash
 # Windows
-venv\Scripts\activate
+venv\\Scripts\\activate
 
 # MacOS/Linux
 source venv/bin/activate
 ```
 2. **Start Streamlit App**
 ```bash
-streamlit run filename.py
+streamlit run pharmacy_assistant.py
 ```
 3. Open the local server link in your browser (e.g., `http://localhost:8501`)
 
@@ -77,10 +83,13 @@ streamlit run filename.py
 ## 🗂 File Structure
 ```plaintext
 MediSense-AI
-├── app.py            # Main application file
-├── pharmacy_db.csv   # CSV file containing medicine inventory
-├── requirements.txt  # Required libraries
-└── README.md         # Documentation
+├── pharmacy_assistant.py  # Main application file
+├── chatbot.py             # Chatbot functionality file
+├── pharmacy_db.csv        # CSV file containing medicine inventory
+├── requirements.txt       # Required libraries
+├── doc_prescription.jpg   # Sample prescription to upload
+├── doc1_prescription.jpg  # Sample prescription to upload
+└── README.md              # Documentation
 ```
 
 ---
@@ -102,6 +111,3 @@ MediSense-AI
 ## ✅ Troubleshooting
 - **Tesseract not found:** Ensure Tesseract is correctly installed and path is set.
 - **Google API error:** Verify that the API key is valid and added to environment variables.
-
----
-
